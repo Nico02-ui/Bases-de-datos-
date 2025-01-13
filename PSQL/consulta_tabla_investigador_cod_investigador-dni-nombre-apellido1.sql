@@ -1,0 +1,1 @@
+select all cod_investigador, dni, nombre, apellido1, salario*0.10 from investigador;

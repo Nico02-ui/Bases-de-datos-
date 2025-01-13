@@ -1,0 +1,1 @@
+select cod_investigador, dni, ciudad from investigador;
