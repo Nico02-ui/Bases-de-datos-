@@ -1,1 +1,1 @@
-select to_date('05-Dec-24', 'DD-month-YY');
+select to_date('05-December-24', 'DD-month-YY');
