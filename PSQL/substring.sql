@@ -3,3 +3,6 @@ FROM investigador;
 
 SELECT nombre,TRIM('aeiouAEIOU' from nombre)
 FROM investigador;
+
+SELECT nombre, LTRIM(nombre, 'aeiouAEIOU')
+FROM investigador;
