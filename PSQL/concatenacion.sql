@@ -22,3 +22,8 @@ SELECT
     nombre,
     LEFT(nombre, 3) AS "Primeros 3 caracteres"
 FROM investigador;
+
+SELECT
+    nombre,
+    LPAD(nombre, 10, '#')
+FROM investigador;
