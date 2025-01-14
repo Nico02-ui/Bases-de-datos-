@@ -32,3 +32,8 @@ SELECT
     nombre,
     RPAD(nombre, 10, '#')
 FROM investigador;
+
+SELECT
+    nombre,
+    REPLACE(nombre, 'Do', 'XXX')
+FROM investigador;
