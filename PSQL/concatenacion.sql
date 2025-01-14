@@ -45,5 +45,5 @@ SELECT
 
 SELECT
     nombre,
-    TRANSLATE(nombre, 'áéíóú', 'ÁÉÍÓÚ')
+    TRANSLATE(nombre, 'áéíóú', 'ÁÉÍÓÚ22')
 FROM investigador;
