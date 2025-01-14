@@ -37,3 +37,8 @@ SELECT
     nombre,
     REPLACE(nombre, 'Do', 'XXX')
 FROM investigador;
+
+SELECT
+    split_part('www.iesdonana.org', '.', 1),
+    split_part('www.iesdonana.org', '.', 2),
+    split_part('www.iesdonana.org', '.', 3);
