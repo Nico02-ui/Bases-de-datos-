@@ -27,3 +27,8 @@ SELECT
     nombre,
     LPAD(nombre, 10, '#')
 FROM investigador;
+
+SELECT
+    nombre,
+    RPAD(nombre, 10, '#')
+FROM investigador;
