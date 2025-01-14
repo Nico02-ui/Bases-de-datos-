@@ -42,3 +42,8 @@ SELECT
     split_part('www.iesdonana.org', '.', 1),
     split_part('www.iesdonana.org', '.', 2),
     split_part('www.iesdonana.org', '.', 3);
+
+SELECT
+    nombre,
+    TRANSLATE(nombre, 'áéíóú', 'ÁÉÍÓÚ')
+FROM investigador;
