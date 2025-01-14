@@ -10,3 +10,15 @@ SELECT
     CONCAT_WS(' ', nombre, apellido1, apellido2) AS "Concatenado con CONCAT_WS"
 FROM investigador;
 
+SELECT
+    nombre,
+    INITCAP(nombre) AS "Nombre con Initcap",
+    INITCAP('PEPE') AS "PEPE con Initcap",
+    INITCAP('12PEPE') AS "12PEPE con Initcap",
+    INITCAP('pEpE') AS "pEpE con Initcap"
+FROM investigador;
+
+SELECT
+    nombre,
+    LEFT(nombre, 3) AS "Primeros 3 caracteres"
+FROM investigador;
